@@ -1,32 +1,23 @@
-Classic AutoGPT Agent:
+AutoGPT Agent:
 - changed-files:
-  - any-glob-to-any-file: classic/original_autogpt/**
-
-Classic Benchmark:
-- changed-files:
-  - any-glob-to-any-file: classic/benchmark/**
-
-Classic Frontend:
-- changed-files:
-  - any-glob-to-any-file: classic/frontend/**
+  - any-glob-to-any-file: autogpts/autogpt/**
 
 Forge:
 - changed-files:
-  - any-glob-to-any-file: classic/forge/**
+  - any-glob-to-any-file: autogpts/forge/**
+
+Benchmark:
+- changed-files:
+  - any-glob-to-any-file: benchmark/**
+
+Frontend:
+- changed-files:
+  - any-glob-to-any-file: frontend/**
+
+Arena:
+- changed-files:
+  - any-glob-to-any-file: arena/**
 
 documentation:
 - changed-files:
   - any-glob-to-any-file: docs/**
-
-platform/frontend:
-- changed-files:
-  - any-glob-to-any-file: autogpt_platform/frontend/**
-
-platform/backend:
-- changed-files:
-  - any-glob-to-any-file: autogpt_platform/backend/**
-  - all-globs-to-all-files: '!autogpt_platform/backend/backend/blocks/**'
-
-platform/blocks:
-- changed-files:
-  - any-glob-to-any-file: autogpt_platform/backend/backend/blocks/**

@@ -1,4 +1,4 @@
-name: Repo - Github Stats
+name: github-repo-stats
 
 on:
   schedule:
